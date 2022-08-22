@@ -297,7 +297,7 @@ export default class MoviesDAO {
       stage that searches the `comments` collection for the correct comments.
       */
 
-      // TODO Ticket: Get Comments
+      // TODO done Ticket: Get Comments
       // Implement the required pipeline.
       const pipeline = [
         { $match: { _id: ObjectId(id) } },
